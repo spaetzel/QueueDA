@@ -1,0 +1,16 @@
+*.dll
+*.pdb
+*.suo
+*.Publish.xml
+*.tmproj
+.DS_Store
+*.cache
+bin
+Bin
+App_Data
+App_data
+*~
+*FileListAbsolute.txt
+CastThree/CastThree.suo
+combined_*.css
+combined_*.js

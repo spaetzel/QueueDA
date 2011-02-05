@@ -51,7 +51,7 @@ namespace Spaetzel.QueueDA
 
             command.ExecuteNonQuery();
 
-            query = "SELECT LAST_INSERT_ID() FROM queuemessage";
+            query = "SELECT LAST_INSERT_ID() FROM queuemessage LIMIT 0, 1";
 
             command = new MySqlCommand(query, connection);
 
